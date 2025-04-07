@@ -6,7 +6,7 @@ const TeamInfo = ({ teamHeadingPromise, image_url }) => {
   return (
     <div className="flex flex-col justify-center items-center gap-8">
       <img
-        src={`${image_url}/${teamHeading.image}`}
+        src={`${image_url}${teamHeading.image}`}
         alt=""
         className="w-60 h-60 rounded-full"
       />

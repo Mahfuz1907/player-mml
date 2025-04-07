@@ -16,7 +16,7 @@ const PlayerTeamButton = ({ team, player, base_url, image_url }) => {
       .then(
         Swal.fire({
           text: `${player.name} is selected for ${team.name}`,
-          imageUrl: `${image_url}/${player.image}`, // Provide the path to your custom image
+          imageUrl: `${image_url}${player.image}`, // Provide the path to your custom image
           imageWidth: 100,
           imageHeight: 100,
           imageAlt: "Custom icon",

@@ -6,7 +6,7 @@ const CategoryPlayer = ({ categoryPlayer, image_url }) => {
       <div className="card mb-24 sm:mb-20 flex flex-col sm:mx-2 md:mx-5 justify-center items-center gap-7 border-[1px] border-green-400 rounded-xl px-7 py-5">
         <div className="card-img">
           <img
-            src={`${image_url}/${categoryPlayer.image}`}
+            src={`${image_url}${categoryPlayer.image}`}
             alt=""
             className="w-40 h-40 rounded-full"
           />

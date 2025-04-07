@@ -3,12 +3,12 @@ import React from "react";
 const PlayerByTeam = ({ player, image_url }) => {
   return (
     <>
-      <div className="mx-10 card flex flex-col justify-center items-center gap-5 rounded-2xl shadow-xl mb-5">
+      <div className="mx-5 card flex flex-col justify-center items-center gap-5 rounded-2xl shadow-xl mb-5">
         <div className="player-image w-full bg-green-400 rounded-t-2xl flex justify-center items-center py-5">
           <img
-            src={`${image_url}/${player.image}/`}
+            src={`${image_url}${player.image}/`}
             alt=""
-            className="rounded-full"
+            className="rounded-full w-40 h-40"
           />
         </div>
 

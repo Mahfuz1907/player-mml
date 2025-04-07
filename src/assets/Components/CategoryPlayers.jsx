@@ -7,29 +7,29 @@ const CategoryPlayers = ({ categoryPlayerPromise, image_url }) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4, // Default number of slides to show
-    slidesToScroll: 3, // Default number of slides to scroll
+    slidesToShow: 4,
+    slidesToScroll: 3,
     arrows: true,
     responsive: [
       {
-        breakpoint: 1024, // Tablet devices
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3, // Show 3 slides
-          slidesToScroll: 2, // Scroll 2 slides at a time
+          slidesToShow: 3,
+          slidesToScroll: 2,
         },
       },
       {
-        breakpoint: 768, // Mobile devices
+        breakpoint: 768,
         settings: {
-          slidesToShow: 2, // Show 2 slides
-          slidesToScroll: 1, // Scroll 1 slide at a time
+          slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 640, // Very small screens
+        breakpoint: 640,
         settings: {
-          slidesToShow: 1, // Show 1 slide
-          slidesToScroll: 1, // Scroll 1 slide at a time
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],

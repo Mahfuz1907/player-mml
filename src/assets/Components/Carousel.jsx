@@ -11,7 +11,7 @@ const Carousel = ({ teamLogo, numberOfTeams, image_url }) => {
       className="carousel-item relative w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between items-center gap-5"
     >
       <img
-        src={`${image_url}/${teamLogo.image}`}
+        src={`${image_url}${teamLogo.image}`}
         className="h-[400px] w-full xl:col-span-2 rounded-xl"
       />
       <div className="content rounded-xl bg-green-400 text-white h-[400px] flex flex-col justify-center items-center gap-10 px-18 py-10">

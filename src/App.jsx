@@ -9,8 +9,8 @@ import FrontPage from "./assets/Components/FrontPage";
 import TeamPage from "./assets/Components/TeamPage";
 
 function App() {
-  const base_url = "http://127.0.0.1:8000/api";
-  const image_url = "http://127.0.0.1:8000";
+  const base_url = "https://player-mml-api.onrender.com/api";
+  const image_url = "https://player-mml-api.onrender.com";
   const playersPromise = fetch(`${base_url}/players/`).then((res) =>
     res.json()
   );
