@@ -66,7 +66,7 @@ const Players = ({ playersPromise, image_url }) => {
               : "bg-green-400 border-green-400 hover:bg-white hover:text-green-400 cursor-pointer"
           } text-white rounded`}
         >
-          <i class="fa-solid fa-angles-left"></i>
+          <i className="fa-solid fa-angles-left"></i>
         </button>
 
         <span className="text-lg font-semibold">
@@ -84,7 +84,7 @@ const Players = ({ playersPromise, image_url }) => {
               : "bg-green-400 border-green-400 hover:bg-white hover:text-green-400 cursor-pointer"
           } text-white rounded`}
         >
-          <i class="fa-solid fa-angles-right"></i>
+          <i className="fa-solid fa-angles-right"></i>
         </button>
       </div>
     </div>
