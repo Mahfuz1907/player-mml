@@ -19,7 +19,7 @@ function App() {
 
   const teamPromise = fetch(`${base_url}/teams/`).then((res) => res.json());
 
-  const categoryPromise = fetch(`${base_url}categories/`).then((res) =>
+  const categoryPromise = fetch(`${base_url}/categories/`).then((res) =>
     res.json()
   );
 
