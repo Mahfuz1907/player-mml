@@ -38,7 +38,7 @@ const Teams = ({ teamPromise, image_url, base_url }) => {
       </div>
       <h1 className="text-center text-2xl font-bold">Select Players</h1>
       <div className="px-10 sm:px-20 md:px-14 lg:px-20 flex justify-center items-center mt-20">
-        <i class="fa-solid fa-magnifying-glass relative -right-10 z-1 text-[#8B8B8C] text-lg font-bold"></i>
+        <i className="fa-solid fa-magnifying-glass relative -right-10 z-1 text-[#8B8B8C] text-lg font-bold"></i>
         <input
           id="search"
           type="text"
